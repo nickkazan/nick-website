@@ -35,25 +35,25 @@ class ExperienceSection extends React.Component {
 }
 
 const StyledExperienceSection = styled.section `
-  padding: 50px 0 0 0;
-  max-width: 1200px;
+  padding: 50px 50px 0 50px;
   width: 100%;
   box-sizing: border-box;
+  justify-content: center;
 
   .date {
     float: right;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0px 0px 10px 0px;
   }
 
   .position {
     color: #119DA4;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0px 0px 10px 0px;
   }
 
   .bullet {
-    font-size: 16px;
+    font-size: 18px;
     margin: 0px 0px 10px 0px;
   }
 
@@ -71,6 +71,7 @@ const StyledExperienceSection = styled.section `
     margin: 0px 0px 10px 0px;
   }
 
+<<<<<<< Updated upstream
   .title {
     font-size: 36px;
     width: fit-content;
@@ -80,6 +81,8 @@ const StyledExperienceSection = styled.section `
     font-smooth: auto;
   }
 
+=======
+>>>>>>> Stashed changes
   .logo {
     display: block;
     width: 192px;

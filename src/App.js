@@ -1,24 +1,36 @@
 import React from 'react';
 import './App.css';
-import Button from './Components/Button';
 import styled from 'styled-components';
-import ExperienceSection from './Components/ExperienceSection';
 import { Link } from "react-scroll";
+<<<<<<< Updated upstream
 import { Navbar, Nav } from 'react-bootstrap';
+=======
+import NavBar from './Components/Navbar';
+import ExperienceSection from './Components/ExperienceSection';
+import Button from './Components/Button';
+import ContactSection from './Components/ContactSection';
+>>>>>>> Stashed changes
 
 class App extends React.Component {
   render() {
     return (
-      <Style>
+      <Style className="app-header flex">
         <section id="home" className="app-header flex">
+<<<<<<< Updated upstream
           <div className="text">
             Hi, I'm<span className="highlighted-text"> Nick Kazan </span>and I smol brain chad.
+=======
+          <div className="title">
+            Hi, I'm<span className="highlighted-text"> Nick Kazan </span>and I'm a Software Engineer.
+>>>>>>> Stashed changes
           </div>
           <Link to="experience" spy={true} smooth={true}>
             <Button text="see my experience"/>
           </Link>
         </section>
+        <NavBar/>
         <section id="experience" className="section-header flex">
+<<<<<<< Updated upstream
           <Navbar className="navbar" color="light">
             <Nav className="row">
               <Link to="home" spy={true} smooth={true}>
@@ -37,12 +49,20 @@ class App extends React.Component {
           </Navbar>
           <ExperienceSection title="Experience"/>
         </section>
+=======
+          <ExperienceSection title="Experience"/>
+        </section>
+        <section id="contact" className="section-header flex centered">
+          <ContactSection title="Let's Get In Touch"/>
+        </section>
+>>>>>>> Stashed changes
       </Style>
     );
   }
 }
 
 const Style = styled.div `
+<<<<<<< Updated upstream
   .link {
     text-decoration: none;
     color: white;
@@ -74,6 +94,11 @@ const Style = styled.div `
       cursor: pointer;
       transition: all .3s;
     }
+=======
+  .centered {
+    justify-contents: center;
+    align-items: center;
+>>>>>>> Stashed changes
   }
 `
 
