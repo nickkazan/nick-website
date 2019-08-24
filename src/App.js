@@ -8,6 +8,7 @@ import Button from './Components/Button';
 import ContactSection from './Components/ContactSection';
 
 class App extends React.Component {
+
   render() {
     return (
       <Style className="app-header flex">
@@ -28,7 +29,7 @@ class App extends React.Component {
         </section>
       </Style>
     );
-  }
+  }  
 }
 
 const Style = styled.div `
