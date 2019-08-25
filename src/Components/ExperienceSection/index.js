@@ -67,18 +67,18 @@ const StyledExperienceSection = styled.section `
 
   .date {
     float: right;
-    font-size: 20px;
+    font-size: calc(8px + 1vw);
     margin: 0px 0px 10px 0px;
   }
 
   .position {
     color: #119DA4;
-    font-size: 20px;
+    font-size: calc(8px + 1vw);
     margin: 0px 0px 10px 0px;
   }
 
   .bullet {
-    font-size: 18px;
+    font-size: calc(8px + 1vw);
     margin: 0px 0px 10px 0px;
   }
 
@@ -98,9 +98,9 @@ const StyledExperienceSection = styled.section `
 
   .logo {
     display: block;
-    width: 192px;
-    height: 66px;
-    padding-right: 50px;
+    width: calc(65px + 2vw);
+    height: calc(20px + 2vw);
+    padding-right: calc(15px + 2vw);
   }
 
   .container {
